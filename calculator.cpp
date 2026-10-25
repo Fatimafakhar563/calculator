@@ -48,7 +48,7 @@ float squareroot(int a)
     return sqrt(a);
 }
 };
-  // Main funcation 
+  // Main function 
 int main()
 {
 calculator aa;
@@ -58,13 +58,13 @@ calculator aa;
     while(!(cin >> a))//condition
     {
         cin.clear();
-// Built in funcation used for error checking    cin.ignore(1000,'\n');
+// Built in function used for error checking    cin.ignore(1000,'\n');
         cout << "Invalid input  Enter number again: ";
     }
     // Second number input
     cout << "Enter 2nd number: ";
     while(!(cin >> b))//condition 
-    {// Built in funcation used for error
+    {// Built in function used for error
         cin.clear();
         cin.ignore(1000, '\n');
         cout << "Invalid input! Enter number again: ";
